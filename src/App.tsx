@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Import necessary modules from React and the MenuBar component
+import React from 'react'; // Import React library
+import MenuBar from './components/MenuBar'; // Import the MenuBar component from the components directory
+import './App.css'; // Import CSS file for styling the App component
 
-function App() {
+// Define the functional component App
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> {/* Main container for the App component */}
+      <MenuBar /> {/* Render the MenuBar component */}
     </div>
   );
-}
+};
 
-export default App;
+// Export the App component as the default export
+export default App; 

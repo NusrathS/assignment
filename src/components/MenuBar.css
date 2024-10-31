@@ -1,0 +1,126 @@
+/* MenuBar.css */
+
+/* Main menu bar styling */
+.menu-bar {
+    background-color: #1e293b; /* Dark background color for the menu bar */
+    padding: 20px; /* Add padding inside the menu bar */
+    border-radius: 10px; /* Round the corners of the menu bar */
+    width: 300px; /* Set a fixed width for the menu bar */
+    margin: 0 auto; /* Center the menu bar horizontally */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.menu-bar nav {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    gap: 15px; /* Add space between items */
+}
+
+/* Menu item buttons */
+.menu-item,
+.sign-in-button {
+    background-color: #4f46e5; /* Primary color for menu buttons */
+    color: #ffffff; /* Set text color to white */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding inside the buttons */
+    margin: 5px; /* Add margin around buttons */
+    border-radius: 5px; /* Round the corners of the buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Set font size for button text */
+    font-weight: bold; /* Set font weight to bold */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+}
+
+.menu-item:disabled {
+    background-color: #9ca3af; /* Color for disabled menu items */
+    cursor: not-allowed; /* Change cursor to indicate disabled state */
+}
+
+.menu-item:hover,
+.sign-in-button:hover {
+    background-color: #4338ca; /* Darker shade on hover for buttons */
+}
+
+/* Submenu styling */
+.submenu {
+    display: flex; /* Use flexbox for submenu layout */
+    gap: 10px; /* Add space between submenu items */
+}
+
+.view-options {
+    display: flex; /* Use flexbox for view options layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    gap: 10px; /* Add space between items */
+    margin-top: 10px; /* Add margin above the view options */
+}
+
+/* View submenu buttons */
+.view-options button {
+    background-color: #6366f1; /* Lighter shade for view submenu buttons */
+    color: #ffffff; /* Set text color to white */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Add padding inside the buttons */
+    border-radius: 4px; /* Round the corners of the buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 14px; /* Set font size for button text */
+    transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition for background color and lift effect */
+}
+
+.view-options button:hover {
+    background-color: #4f46e5; /* Primary color on hover for view submenu buttons */
+    transform: translateY(-2px); /* Subtle lift effect on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover for depth */
+}
+
+/* Exit screen button style */
+.submenu button {
+    background-color: #ef4444; /* Red background color for exit button */
+    color: #ffffff; /* Set text color to white */
+    padding: 10px 20px; /* Add padding inside the exit button */
+    border-radius: 5px; /* Round the corners of the exit button */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+}
+
+.submenu button:hover {
+    background-color: #dc2626; /* Darker red on hover for exit button */
+}
+
+/* Sign-in button styling */
+.sign-in-button {
+    background-color: #4ade80; /* Green background color for sign-in button */
+}
+
+.sign-in-button:hover {
+    background-color: #22c55e; /* Darker green on hover for sign-in button */
+}
+
+/* Styling for submenu screen (SubMenuScreen.css) */
+.submenu-screen {
+    text-align: center; /* Center-align text within the submenu screen */
+    margin-top: 20px; /* Add margin above the submenu screen */
+    padding: 15px; /* Add padding inside the submenu screen */
+    background-color: #1e3a8a; /* Dark background color for submenu screen */
+    color: #ffffff; /* Set text color to white */
+    border-radius: 8px; /* Round the corners of the submenu screen */
+}
+
+.submenu-screen h1 {
+    font-size: 24px; /* Set font size for the heading */
+    font-weight: bold; /* Set font weight to bold for the heading */
+}
+
+.back-button {
+    background-color: #94a3b8; /* Gray background color for back button */
+    color: #ffffff; /* Set text color to white */
+    padding: 8px 16px; /* Add padding inside the back button */
+    border-radius: 4px; /* Round the corners of the back button */
+    margin-top: 10px; /* Add margin above the back button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+}
+
+.back-button:hover {
+    background-color: #64748b; /* Darker shade on hover for back button */
+}

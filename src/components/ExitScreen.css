@@ -1,0 +1,23 @@
+/* ExitScreen.css */
+
+/* Styling for the exit screen container */
+.exit-screen {
+    text-align: center; /* Center-align text within the container */
+    margin-top: 50px; /* Add space above the exit screen */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #e11d48; /* Red background color for the exit screen */
+    color: #ffffff; /* Set text color to white */
+    border-radius: 8px; /* Round the corners of the container */
+    width: 300px; /* Set a fixed width for the exit screen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+/* Styling for the heading within the exit screen */
+.exit-screen h1 {
+    font-size: 24px; /* Set font size for the heading */
+}
+
+/* Styling for the paragraph text within the exit screen */
+.exit-screen p {
+    font-size: 16px; /* Set font size for the paragraph text */
+}

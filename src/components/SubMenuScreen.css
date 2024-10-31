@@ -1,0 +1,29 @@
+/* SubMenuScreen.css */
+
+/* Style for the submenu screen container */
+.submenu-screen {
+    text-align: center; /* Center-align text within the submenu screen */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #f3f4f6; /* Set a light gray background color */
+    border-radius: 8px; /* Round the corners of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    width: 300px; /* Set a fixed width for the submenu screen */
+}
+
+/* Style for the heading within the submenu screen */
+.submenu-screen h1 {
+    font-size: 24px; /* Set font size for the heading */
+    color: #4f46e5; /* Set text color to a shade of blue */
+}
+
+/* Style for the back button */
+.back-button {
+    background-color: #4f46e5; /* Set background color of the button to blue */
+    color: #ffffff; /* Set text color of the button to white */
+    padding: 10px 20px; /* Add padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round the corners of the button */
+    font-size: 16px; /* Set font size for the button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 15px; /* Add space above the button */
+}
